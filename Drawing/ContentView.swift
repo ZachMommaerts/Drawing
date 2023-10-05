@@ -11,12 +11,23 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                NavigationLink {
-                    CreatingCustomPaths()
-                } label: {
-                    Text("CreatingCustomPaths")
+                Section {
+                    NavigationLink {
+                        CreatingCustomPaths()
+                    } label: {
+                        Text("CreatingCustomPaths")
+                    }
+                    NavigationLink {
+                        PathsVsShapes()
+                    } label: {
+                        Text("PathsVsShapes")
+                    }
+                } header: {
+                    Text("Part One")
+                        .font(.title.bold())
                 }
             }
+            .navigationTitle("Project 9")
         }
     }
 }
