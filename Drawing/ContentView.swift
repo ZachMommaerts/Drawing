@@ -17,13 +17,27 @@ struct ContentView: View {
                     } label: {
                         Text("CreatingCustomPaths")
                     }
+                    
                     NavigationLink {
                         PathsVsShapes()
                     } label: {
                         Text("PathsVsShapes")
                     }
+                    
+                    NavigationLink {
+                        StrokeBorderAndInsettableShape()
+                    } label: {
+                        Text("StrokeBorderAndInsettableShape")
+                    }
                 } header: {
                     Text("Part One")
+                        .font(.title.bold())
+                }
+                
+                Section {
+                    
+                } header: {
+                    Text("Part Two")
                         .font(.title.bold())
                 }
             }
