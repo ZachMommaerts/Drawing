@@ -42,15 +42,15 @@ struct ContentView: View {
                     }
                     
                     NavigationLink {
-                        ImagePaint()
+                        ImagePaintView()
                     } label: {
-                        Text("ImagePaint")
+                        Text("ImagePaintView")
                     }
                     
                     NavigationLink {
-                        DrawingGroup()
+                        DrawingGroupView()
                     } label: {
-                        Text("DrawingGroup")
+                        Text("DrawingGroupView")
                     }
                 } header: {
                     Text("Part Two")
