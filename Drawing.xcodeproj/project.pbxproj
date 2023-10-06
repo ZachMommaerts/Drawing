@@ -10,6 +10,9 @@
 		41A5A9362ACF7A9F00AB0ABA /* CGAffineTransformAndEven-OddFills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A5A9352ACF7A9F00AB0ABA /* CGAffineTransformAndEven-OddFills.swift */; };
 		41A5A93C2ACFA02200AB0ABA /* ImagePaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A5A93B2ACFA02200AB0ABA /* ImagePaintView.swift */; };
 		41A5A93E2ACFA04F00AB0ABA /* DrawingGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A5A93D2ACFA04F00AB0ABA /* DrawingGroupView.swift */; };
+		41A5A9402ACFAF0F00AB0ABA /* SpecialEffectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A5A93F2ACFAF0F00AB0ABA /* SpecialEffectsView.swift */; };
+		41A5A9422ACFAF2600AB0ABA /* AnimatableDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A5A9412ACFAF2600AB0ABA /* AnimatableDataView.swift */; };
+		41A5A9442ACFAF3700AB0ABA /* AnimatablePairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A5A9432ACFAF3700AB0ABA /* AnimatablePairView.swift */; };
 		41A6878B2ACF36C900C912BC /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6878A2ACF36C900C912BC /* DrawingApp.swift */; };
 		41A6878D2ACF36C900C912BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6878C2ACF36C900C912BC /* ContentView.swift */; };
 		41A6878F2ACF36CB00C912BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A6878E2ACF36CB00C912BC /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 		41A5A9352ACF7A9F00AB0ABA /* CGAffineTransformAndEven-OddFills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGAffineTransformAndEven-OddFills.swift"; sourceTree = "<group>"; };
 		41A5A93B2ACFA02200AB0ABA /* ImagePaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaintView.swift; sourceTree = "<group>"; };
 		41A5A93D2ACFA04F00AB0ABA /* DrawingGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingGroupView.swift; sourceTree = "<group>"; };
+		41A5A93F2ACFAF0F00AB0ABA /* SpecialEffectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffectsView.swift; sourceTree = "<group>"; };
+		41A5A9412ACFAF2600AB0ABA /* AnimatableDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableDataView.swift; sourceTree = "<group>"; };
+		41A5A9432ACFAF3700AB0ABA /* AnimatablePairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePairView.swift; sourceTree = "<group>"; };
 		41A687872ACF36C900C912BC /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A6878A2ACF36C900C912BC /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		41A6878C2ACF36C900C912BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +77,9 @@
 				41A5A9352ACF7A9F00AB0ABA /* CGAffineTransformAndEven-OddFills.swift */,
 				41A5A93B2ACFA02200AB0ABA /* ImagePaintView.swift */,
 				41A5A93D2ACFA04F00AB0ABA /* DrawingGroupView.swift */,
+				41A5A93F2ACFAF0F00AB0ABA /* SpecialEffectsView.swift */,
+				41A5A9412ACFAF2600AB0ABA /* AnimatableDataView.swift */,
+				41A5A9432ACFAF3700AB0ABA /* AnimatablePairView.swift */,
 				41A6878E2ACF36CB00C912BC /* Assets.xcassets */,
 				41A687902ACF36CB00C912BC /* Preview Content */,
 			);
@@ -158,8 +167,11 @@
 				41A687992ACF38C300C912BC /* CreatingCustomPaths.swift in Sources */,
 				41A6878D2ACF36C900C912BC /* ContentView.swift in Sources */,
 				41A6879D2ACF452700C912BC /* StrokeBorderAndInsettableShape.swift in Sources */,
+				41A5A9442ACFAF3700AB0ABA /* AnimatablePairView.swift in Sources */,
 				41A6878B2ACF36C900C912BC /* DrawingApp.swift in Sources */,
 				41A5A93C2ACFA02200AB0ABA /* ImagePaintView.swift in Sources */,
+				41A5A9402ACFAF0F00AB0ABA /* SpecialEffectsView.swift in Sources */,
+				41A5A9422ACFAF2600AB0ABA /* AnimatableDataView.swift in Sources */,
 				41A5A93E2ACFA04F00AB0ABA /* DrawingGroupView.swift in Sources */,
 				41A5A9362ACF7A9F00AB0ABA /* CGAffineTransformAndEven-OddFills.swift in Sources */,
 				41A6879B2ACF3A8E00C912BC /* PathsVsShapes.swift in Sources */,

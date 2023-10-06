@@ -56,6 +56,29 @@ struct ContentView: View {
                     Text("Part Two")
                         .font(.title.bold())
                 }
+                
+                Section {
+                    NavigationLink {
+                        SpecialEffectsView()
+                    } label: {
+                        Text("SpecialEffectsView")
+                    }
+                    
+                    NavigationLink {
+                        AnimatableDataView()
+                    } label: {
+                        Text("AnimatableDataView")
+                    }
+                    
+                    NavigationLink {
+                        AnimatablePairView()
+                    } label: {
+                        Text("AnimatablePairView")
+                    }
+                } header: {
+                    Text("Part Three")
+                        .font(.title.bold())
+                }
             }
             .navigationTitle("Project 9")
         }
