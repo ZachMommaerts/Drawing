@@ -35,7 +35,23 @@ struct ContentView: View {
                 }
                 
                 Section {
+                    NavigationLink {
+                        CGAffineTransformAndEven_OddFills()
+                    } label: {
+                        Text("CGAffineTransformAndEven_OddFills")
+                    }
                     
+                    NavigationLink {
+                        ImagePaint()
+                    } label: {
+                        Text("ImagePaint")
+                    }
+                    
+                    NavigationLink {
+                        DrawingGroup()
+                    } label: {
+                        Text("DrawingGroup")
+                    }
                 } header: {
                     Text("Part Two")
                         .font(.title.bold())
