@@ -20,6 +20,7 @@
 		41A687992ACF38C300C912BC /* CreatingCustomPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A687982ACF38C300C912BC /* CreatingCustomPaths.swift */; };
 		41A6879B2ACF3A8E00C912BC /* PathsVsShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6879A2ACF3A8E00C912BC /* PathsVsShapes.swift */; };
 		41A6879D2ACF452700C912BC /* StrokeBorderAndInsettableShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6879C2ACF452700C912BC /* StrokeBorderAndInsettableShape.swift */; };
+		41D53C692AD0B2F0003292C5 /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D53C682AD0B2F0003292C5 /* SpirographView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		41A687982ACF38C300C912BC /* CreatingCustomPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingCustomPaths.swift; sourceTree = "<group>"; };
 		41A6879A2ACF3A8E00C912BC /* PathsVsShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathsVsShapes.swift; sourceTree = "<group>"; };
 		41A6879C2ACF452700C912BC /* StrokeBorderAndInsettableShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeBorderAndInsettableShape.swift; sourceTree = "<group>"; };
+		41D53C682AD0B2F0003292C5 /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				41A5A93F2ACFAF0F00AB0ABA /* SpecialEffectsView.swift */,
 				41A5A9412ACFAF2600AB0ABA /* AnimatableDataView.swift */,
 				41A5A9432ACFAF3700AB0ABA /* AnimatablePairView.swift */,
+				41D53C682AD0B2F0003292C5 /* SpirographView.swift */,
 				41A6878E2ACF36CB00C912BC /* Assets.xcassets */,
 				41A687902ACF36CB00C912BC /* Preview Content */,
 			);
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A687992ACF38C300C912BC /* CreatingCustomPaths.swift in Sources */,
+				41D53C692AD0B2F0003292C5 /* SpirographView.swift in Sources */,
 				41A6878D2ACF36C900C912BC /* ContentView.swift in Sources */,
 				41A6879D2ACF452700C912BC /* StrokeBorderAndInsettableShape.swift in Sources */,
 				41A5A9442ACFAF3700AB0ABA /* AnimatablePairView.swift in Sources */,

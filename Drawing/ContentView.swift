@@ -75,6 +75,12 @@ struct ContentView: View {
                     } label: {
                         Text("AnimatablePairView")
                     }
+                    
+                    NavigationLink {
+                        SpirographView()
+                    } label: {
+                        Text("SpirographView")
+                    }
                 } header: {
                     Text("Part Three")
                         .font(.title.bold())
