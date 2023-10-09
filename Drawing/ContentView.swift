@@ -85,6 +85,29 @@ struct ContentView: View {
                     Text("Part Three")
                         .font(.title.bold())
                 }
+                
+                Section {
+                    NavigationLink {
+                        ChallengeOne()
+                    } label: {
+                        Text("ChallengeOne")
+                    }
+                    
+                    NavigationLink {
+                        ChallengeTwo()
+                    } label: {
+                        Text("ChallengeTwo")
+                    }
+                    
+                    NavigationLink {
+                        ChallengeThree()
+                    } label: {
+                        Text("ChallengeThree")
+                    }
+                } header: {
+                    Text("Challenges")
+                        .font(.title.bold())
+                }
             }
             .navigationTitle("Project 9")
         }

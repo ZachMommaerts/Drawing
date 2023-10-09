@@ -21,6 +21,9 @@
 		41A6879B2ACF3A8E00C912BC /* PathsVsShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6879A2ACF3A8E00C912BC /* PathsVsShapes.swift */; };
 		41A6879D2ACF452700C912BC /* StrokeBorderAndInsettableShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6879C2ACF452700C912BC /* StrokeBorderAndInsettableShape.swift */; };
 		41D53C692AD0B2F0003292C5 /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D53C682AD0B2F0003292C5 /* SpirographView.swift */; };
+		41D53C6B2AD3AF06003292C5 /* ChallengeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D53C6A2AD3AF06003292C5 /* ChallengeOne.swift */; };
+		41D53C6D2AD3AF10003292C5 /* ChallengeTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D53C6C2AD3AF10003292C5 /* ChallengeTwo.swift */; };
+		41D53C6F2AD3AF1B003292C5 /* ChallengeThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D53C6E2AD3AF1A003292C5 /* ChallengeThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		41A6879A2ACF3A8E00C912BC /* PathsVsShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathsVsShapes.swift; sourceTree = "<group>"; };
 		41A6879C2ACF452700C912BC /* StrokeBorderAndInsettableShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeBorderAndInsettableShape.swift; sourceTree = "<group>"; };
 		41D53C682AD0B2F0003292C5 /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
+		41D53C6A2AD3AF06003292C5 /* ChallengeOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeOne.swift; sourceTree = "<group>"; };
+		41D53C6C2AD3AF10003292C5 /* ChallengeTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeTwo.swift; sourceTree = "<group>"; };
+		41D53C6E2AD3AF1A003292C5 /* ChallengeThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				41A5A9412ACFAF2600AB0ABA /* AnimatableDataView.swift */,
 				41A5A9432ACFAF3700AB0ABA /* AnimatablePairView.swift */,
 				41D53C682AD0B2F0003292C5 /* SpirographView.swift */,
+				41D53C6A2AD3AF06003292C5 /* ChallengeOne.swift */,
+				41D53C6C2AD3AF10003292C5 /* ChallengeTwo.swift */,
+				41D53C6E2AD3AF1A003292C5 /* ChallengeThree.swift */,
 				41A6878E2ACF36CB00C912BC /* Assets.xcassets */,
 				41A687902ACF36CB00C912BC /* Preview Content */,
 			);
@@ -167,9 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41D53C6D2AD3AF10003292C5 /* ChallengeTwo.swift in Sources */,
 				41A687992ACF38C300C912BC /* CreatingCustomPaths.swift in Sources */,
 				41D53C692AD0B2F0003292C5 /* SpirographView.swift in Sources */,
 				41A6878D2ACF36C900C912BC /* ContentView.swift in Sources */,
+				41D53C6F2AD3AF1B003292C5 /* ChallengeThree.swift in Sources */,
 				41A6879D2ACF452700C912BC /* StrokeBorderAndInsettableShape.swift in Sources */,
 				41A5A9442ACFAF3700AB0ABA /* AnimatablePairView.swift in Sources */,
 				41A6878B2ACF36C900C912BC /* DrawingApp.swift in Sources */,
@@ -178,6 +189,7 @@
 				41A5A9422ACFAF2600AB0ABA /* AnimatableDataView.swift in Sources */,
 				41A5A93E2ACFA04F00AB0ABA /* DrawingGroupView.swift in Sources */,
 				41A5A9362ACF7A9F00AB0ABA /* CGAffineTransformAndEven-OddFills.swift in Sources */,
+				41D53C6B2AD3AF06003292C5 /* ChallengeOne.swift in Sources */,
 				41A6879B2ACF3A8E00C912BC /* PathsVsShapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
